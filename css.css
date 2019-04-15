@@ -1,0 +1,36 @@
+body{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC7t4np0-F43Mpa3-08P1Cpg9bN2qNzPm9HnbBGXfd1aBnh5lj');
+  background-size: auto 900px;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-color: black;
+}
+#lead-holder {
+  background-color: red;
+  width: 500px;
+  margin: auto;
+  position: relative;
+}
+#frame {
+  width: 500px;
+  position: absolute;
+  left: 0;
+  top: 50px;
+  display: block;
+}
+#lead {
+  width: 300px;
+  display: block;
+  left: 20%;
+  top: 150px;
+  z-index: 100;
+  position: absolute;
+}
+.circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  background-image: url('https://wallpaperplay.com/walls/full/2/d/a/41729.jpg');
+  position: fixed;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
